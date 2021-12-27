@@ -2,21 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-   <item android:id="@+id/Contact_us"
-       android:icon="@drawable/ic_baseline"
-        android:title="Contact us"
-        app:showAsAction="always"
+    <item android:id="@+id/Contact_us"
+        android:title="Contact us" />
 
 
     <item android:id="@+id/Setting"
-        android:icon="@drawable/ic_baselin1"
         android:title="Setting"
-        app:showAsAction="always"
+        />
 
 
     <item android:id="@+id/Logout"
-        android:icon="@drawable/ic_baseline3"
         android:title="Logout"
-        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/login"
+        android:title="login"/>
+
 
 </menu>
